@@ -1,0 +1,375 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    justify-content: center;
+}
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF;
+    padding: 1rem 2rem;
+}
+
+.navbar .logo img {
+    width: 150px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.navbar .nav-links li a:hover {
+    color: #ddd;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 2rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .cta-btn {
+    background-color: #fff;
+    color: #007BFF;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.hero .cta-btn:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Login Section */
+.login-section {
+    background-color: #f9f9f9;
+    padding: 4rem 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 3rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+.input-group label {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.signup-link a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+
+/* Book appointment */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.appointment {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100vp;
+    /* max-width: 600px; */
+}
+
+.containers {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.containers h1 {
+    color: #4CAF50;
+    font-size: 1.8em;
+}
+
+.containers p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.form-group input[type="date"],
+.form-group input[type="tel"],
+.form-group input[type="email"] {
+    font-size: 1em;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color:#fff;
+    /* #45a049 */
+}
+
+/* About Us Section */
+.about {
+    padding: 3rem 10%;
+    background-color: #fff;
+    /* text-align:center; */
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align:center;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+  
+}
+
+/* Services Section */
+.services {
+    background-color: #f9f9f9;
+    padding: 3rem 10%;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.service-card h3 {
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #555;
+    text-align: justify;
+}
+
+/* Doctors Section */
+.doctors {
+    background-color: #fff;
+    padding: 3rem 10%;
+    text-align: center;
+}
+
+.doctors h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.doctor-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.doctor-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 30%;
+    text-align:center;
+}
+
+.doctor-card img {
+    width: 100%;
+    height: auto;;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.doctor-card h3 {
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+}
+
+.doctor-card p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f9f9f9;
+    padding: 3rem 10%;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact ul {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.contact ul li {
+    margin: 1rem 0;
+}
+
+.contact ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact ul li a:hover {
+    color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
